@@ -1,0 +1,19 @@
+.bg-dark {
+    background-color: #444;
+}
+
+.bg-green {
+    background-color: rgb(125, 241, 187)   ;
+}
+.bg-light {
+    background-color: #ededed;
+}
+
+.txt-color {
+    color: red;
+} 
+
+/* corners */
+.rounded {
+    border-radius: 10px;
+}
