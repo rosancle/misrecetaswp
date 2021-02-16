@@ -3,13 +3,24 @@
     color: grey;    
 }
 
+/*
 .nav-main li {
     margin-right: .5em;      
+}
+*/
+.nav-main span{
+    margin: 0 .5em;
+    color: aquamarine;
+}
+
+.nav-main li:last-child span{
+    display: none;
 }
 
 .nav-main li:last-child {
     margin-right: 0;
 }
+
 
 .nav-main a {
     color:blue;
@@ -21,4 +32,8 @@
 
 .nav-main .separator {
     color: #ccc;
+}
+
+.nav-main .current-menu-item a{
+    color:darkgrey
 }

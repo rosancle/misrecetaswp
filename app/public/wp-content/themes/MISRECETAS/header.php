@@ -7,7 +7,7 @@
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <meta name="description" content="Página web sobre mis recetas">
         <meta name="keywords" content="recetas, gastronomía, comer">
-        <link rel="icon" href="images/logo.png">
+        <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png">
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css">  
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
@@ -31,8 +31,9 @@
                         'theme_location' => 'menu-1',
                         'menu_id' => 'primary-menu',
                         'container' => 'nav',
-                        'container_class' => 'nav-main block-center-row mb-2'
-                    )
+                        'container_class' => 'nav-main block-center-row mb-2',
+                        'after' => '<span>|</span>',
+                        )
                 );
 
             ?>            
