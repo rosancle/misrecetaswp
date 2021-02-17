@@ -37,3 +37,30 @@
 .nav-main .current-menu-item a{
     color:darkgrey
 }
+
+/* nav pagination */
+.nav-pagination .page-numbers {
+    margin-right: .5em;
+}
+
+.nav-pagination span.separator {
+    margin-left: .5em;    
+    color: #ccc;
+}
+
+.nav-pagination span.page-numbers {    
+    color: grey;
+}
+
+.nav-pagination a:hover {
+    text-decoration: underline;
+}
+
+.nav-pagination a:hover span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-pagination a:nth-last-child(2) span {
+    display: none;
+}
